@@ -30,7 +30,7 @@ import PackageDescription
 let package = Package(
     name: "LGSideMenuController",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ], products: [
         .library(name: "LGSideMenuController",
                  targets: ["LGSideMenuController"])
