@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.7
 //
 //
 //  The MIT License (MIT)
@@ -30,13 +30,12 @@ import PackageDescription
 let package = Package(
     name: "LGSideMenuController",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v13)
     ], products: [
         .library(name: "LGSideMenuController",
                  targets: ["LGSideMenuController"])
     ],
     targets: [
-        .target(name: "LGSideMenuController",
-                path: "LGSideMenuController")
+        .target(name: "LGSideMenuController")
     ]
 )

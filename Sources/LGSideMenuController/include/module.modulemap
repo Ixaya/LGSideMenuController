@@ -1,0 +1,11 @@
+module LGSideMenuController {
+    header "LGSideMenuBorderView.h"
+    header "LGSideMenuController.h"
+    header "LGSideMenuGesturesHandler.h"
+    header "LGSideMenuHelper.h"
+    header "LGSideMenuSegue.h"
+    header "LGSideMenuView.h"
+    header "UIViewController+LGSideMenuController.h"
+    
+    export *
+}
