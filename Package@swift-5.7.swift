@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 //  The MIT License (MIT)
@@ -30,7 +30,7 @@ import PackageDescription
 let package = Package(
     name: "LGSideMenuController",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v11)
     ], products: [
         .library(name: "LGSideMenuController",
                  targets: ["LGSideMenuController"])
